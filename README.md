@@ -19,7 +19,7 @@
 > 
 > Настоящая, безопасная и чистая версия сборки Ultimate Optimization официально публикуется и поддерживается **ИСКЛЮЧИТЕЛЬНО** на двух платформах:
 > 
-> 1. **Платформа Modrinth** — размещена на официальном аккаунте создателя (`playgeymer22852`) для безопасного скачивания и получения автоматических обнаружений.
+> 1. **Платформа Modrinth** — размещена на официальном аккаунте создателя `playgeymer22852` (то бишь меня, автора этого репозитория) для безопасного скачивания и получения автоматических обновлений.
 > 2. **Платформа GitHub** — официальный репозиторий проекта для технической поддержки, сообщения о багах и загрузки стабильных версий.
 
 ⚠️ **БОЛЬШЕ НИГДЕ ДАННОЙ СБОРКИ НЕТ!** Если вы увидите этот модпак на стороннем сайте, в левом лаунчере или на CurseForge — это подделка (фейк). Скачивайте файлы только из официальных источников!
@@ -96,7 +96,7 @@ A technical modpack designed to achieve maximum performance, perfect frame smoot
 > 
 > The authentic, safe, and clean version of the Ultimate Optimization modpack officially exists and is maintained **EXCLUSIVELY** on two platforms:
 > 
-> 1. **Modrinth Platform** — hosted on the creator's official author account (`playgeymer22852`) for secure downloads and automatic updates.
+> 1. **Modrinth Platform** — hosted on the creator's official author account `playgeymer22852` (which is me, the creator of this repository) for secure downloads and automatic updates.
 > 2. **GitHub Platform** — the official repository for project support, bug reporting, and downloading stable releases.
 
 ⚠️ **THIS MODPACK IS NOT AVAILABLE ANYWHERE ELSE!** If you see this modpack on any other website, a third-party launcher, or CurseForge — it is a fake. Download files only from official sources!
