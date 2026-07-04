@@ -1,54 +1,50 @@
-name: Mod removal
-description: Suggest a mod to be removed from Fabulously Optimized
-labels: mod, remove
+name: "❌ Удаление мода / Mod removal"
+description: "Предложить удалить или заменить мод из текущего состава сборки."
+labels: ["mod", "remove"]
 body:
-- type: markdown
-  attributes:
-    value: |
-      ## "Remove mod name" ⤴️
-      Before you request a mod removal, [please search](https://github.com/Fabulously-Optimized/fabulously-optimized/issues) if it has already been requested.
-      [Consider the principles as well.](https://wiki.download.fo/principles)
+  - type: markdown
+    attributes:
+      value: |
+        ## 🗑️ Запрос на удаление модификации
+        Перед тем как предложить убрать какой-либо мод, пожалуйста, [убедитесь через поиск](https://github.com), что аналогичный запрос не был создан кем-то другим ранее.
 
-- type: input
-  attributes:
-    label: Original issue
-    description: Write the GitHub link or issue ID where the mod was initially proposed for addition.
-    placeholder: "#1234"
-  validations:
-    required: true
-
-- type: textarea
-  attributes:
-    label: Why should it be in the modpack
-    description: Think of or copy reasons from the original issue about why the mod was initially added.
-  validations:
-    required: true
-
-- type: textarea
-  attributes:
-    label: Why shouldn't it be in the modpack
-    description: Write detailed arguments about why you think the mod should be removed. Be polite.
-  validations:
+  - type: input
+    id: original_issue
+    attributes:
+      label: "🔗 Ссылка на тему добавления мода"
+      description: "Укажите ссылку на GitHub или ID задачи (Issue), где этот мод изначально предлагался к добавлению."
+      placeholder: "#123"
+    validations:
       required: true
 
-- type: textarea
-  attributes:
-    label: Additional details
-    description: Anything else you want to add?
-  validations:
-    required: false
+  - type: textarea
+    id: why_was_added
+    attributes:
+      label: "❓ Зачем этот мод изначально добавлялся в сборку?"
+      description: "Вспомните или скопируйте аргументы из старой темы о том, какую пользу этот мод приносил паку изначально."
+    validations:
+      required: true
 
-- type: input
-  attributes:
-    label: Discord discussion link
-    description: Was this also discussed on the Fabulously Optimized Discord (optional)? If so, copy the link here.
-    placeholder: https://discord.com/channels/859124104644788234/...
-  validations:
-    required: false
+  - type: textarea
+    id: why_remove
+    attributes:
+      label: "🛑 Почему его НУЖНО удалить из сборки? (Ваши аргументы)"
+      description: "Подробно и аргументированно распишите, почему этот мод сейчас лишний (вызывает баги, конфликты, лаги)."
+    validations:
+      required: true
 
-- type: checkboxes
-  attributes:
-    label: Confirm
-    options:
-      - label: This mod removal request was written in good faith, taking into consideration why the mod was added in the first place. This is not a mod replacement request - for that purpose I should use the normal mod request form.
-        required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: "📌 Дополнительные детали"
+      description: "Всё, что вы хотите добавить от себя (необязательно)."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "🛡️ Подтверждение соглашения"
+      options:
+        - label: "Этот запрос написан добросовестно, с учётом причин, по которым мод был добавлен изначально. Я понимаю, что эта форма предназначена строго для удаления проблемных модов, а не для обычного предложения альтернатив."
+          required: true
