@@ -1,13 +1,15 @@
 # Ultimate Optimization
 
 <p align="center">
-  <a href="#-русский">🇷🇺 Русский</a> • 
-  <a href="#-english">🇬🇧 English</a>
+  <a href="#русская-версия">Русская</a> • 
+  <a href="#english-version">Английская</a>
 </p>
 
 ---
 
-## 🇷🇺 Русский
+## Русская версия
+
+# ⚡ Максимальная оптимизация
 
 Технический модпак для достижения высочайшей производительности, идеальной плавности кадра, оптимального ритма кадров и полной стабильности игры.
 
@@ -52,7 +54,7 @@
 
 #### 🎯 Отсечение невидимого
 * **Entity Culling** — Пропускает рендеринг мобов и сундуков, которые находятся за стенами.
-* **More Culling** — Оптимизирует просчет листьев деревьев, traвы и жидкостей.
+* **More Culling** — Оптимизирует просчет листьев деревьев, травы и жидкостей.
 
 #### 🧠 Логика, Движок и Память
 * **Lithium** — Полностью переписывает физику игры и ИИ мобов для плавности мира.
@@ -82,7 +84,9 @@
 
 ---
 
-## 🇬🇧 English
+## English version
+
+# ⚡ Ultimate Optimization
 
 A technical modpack designed to achieve maximum performance, perfect frame smoothness, optimal frame pacing, and complete game stability.
 
