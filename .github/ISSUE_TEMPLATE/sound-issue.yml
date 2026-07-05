@@ -1,0 +1,61 @@
+name: "🎵 Проблема со звуком или аудио / Audio & Sound Issue"
+description: "Если пропадает звук, хрипит аудио-движок или игра зависает от громких звуков"
+title: "[Sound Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🎵 Отчет о проблемах со звуком в Ultimate Optimization
+  - type: dropdown
+    id: sound_device
+    attributes:
+      label: "1. Тип аудио-устройства / Audio Device Type"
+      options:
+        - "🎧 Наушники (USB подключение или Беспроводные Bluetooth)"
+        - "🔌 Наушники / Колонки (Стандартный шнур 3.5mm Jack)"
+        - "🔊 Встроенные динамики монитора или ноутбука"
+    validations:
+      required: true
+  - type: dropdown
+    id: tg_3d_audio
+    attributes:
+      label: "2. Используете ли вы моды на объемный 3D звук? / 3D Physics Audio Check"
+      options:
+        - "❌ Нет, только стандартный звук Майнкрафта"
+        - "🔊 Да, включен кастомный мод на физику звука / эхо в пещерах"
+    validations:
+      required: true
+  - type: dropdown
+    id: sound_os
+    attributes:
+      label: "3. Операционная система / Operating System"
+      options:
+        - "🪟 Windows 10 / 11"
+        - "🐧 Linux"
+        - "🍏 MacOS"
+        - "📱 PojavLauncher"
+        - "❓ Другая ОС"
+    validations:
+      required: true
+  - type: textarea
+    id: sound_description
+    attributes:
+      label: "4. Подробное описание проблемы со звуком / Description"
+      placeholder: "Звук полностью пропадает через 10 минут игры / При взрыве ТНТ игра виснет из-за аудио-движка..."
+    validations:
+      required: true
+  - type: textarea
+    id: sound_specs
+    attributes:
+      label: "5. Приблизительный тест FPS в момент бага и ваши комплектующие (видюха, ссд и т.д.) / Your Specs & FPS"
+      placeholder: "Укажите вашу видеокарту, процессор и тип диска (SSD/HDD)..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: user_agreement_sound
+    attributes:
+      label: "⚖️ Пользовательское соглашение / User Agreement"
+      options:
+        - label: "Я проверил, что драйверы звуковой карты обновлены, а в системе правильно выбрано устройство вывода звука / I agree to the terms"
+          required: true
