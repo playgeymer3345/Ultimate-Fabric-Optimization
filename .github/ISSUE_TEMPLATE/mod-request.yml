@@ -7,7 +7,6 @@ body:
     attributes:
       value: |
         ### 💡 Предложение мода для Ultimate Optimization / Mod suggestion form
-        Пожалуйста, укажите информацию о моде. Мы принимаем предложения только по оптимизации, исправлению багов или графическим улучшениям!
   - type: input
     id: mod_name
     attributes:
@@ -26,14 +25,6 @@ body:
     id: reasoning
     attributes:
       label: "Зачем этот мод нужен в сборке? / Why should it be added?"
-      description: "Как именно этот мод улучшит Ultimate Optimization?"
       placeholder: "Этот мод оптимизирует работу чанков, уменьшает нагрузку на процессор и поднимает FPS..."
     validations:
       required: true
-  - type: input
-    id: user_specs
-    attributes:
-      label: "Ваш ПК и лаунчер (Опционально) / Your PC Specs & Launcher"
-      placeholder: "e.g. i5-12400F / RTX 3060 / Modrinth App (Помогает понять, на каком железе тестировался мод)"
-    validations:
-      required: false
