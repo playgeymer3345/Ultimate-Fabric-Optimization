@@ -22,12 +22,31 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: removal_os
+    attributes:
+      label: "3. Операционная система / Operating System"
+      options:
+        - "🪟 Windows 10 / 11"
+        - "🐧 Linux"
+        - "🍏 MacOS"
+        - "📱 PojavLauncher"
+        - "❓ Другая ОС"
+    validations:
+      required: true
+  - type: dropdown
     id: removal_drive
     attributes:
-      label: "3. Проблема с модом зависит от типа вашего диска? / Storage Drive Type"
+      label: "4. Проблема с модом зависит от типа вашего диска? / Storage Drive Type"
       options:
         - "💾 Да, из-за этого мода игра фризит и тормозит именно на жестких дисках HDD"
         - "🚀 Лагает/багует на любых накопителях одинаково (и на SSD, и на HDD)"
+    validations:
+      required: true
+  - type: textarea
+    id: removal_specs_fps
+    attributes:
+      label: "5. Приблизительный тест с модом, который хотите удалить, и ваши комплектующие (видюха, ссд и т.д.) / Your Specs & Test FPS"
+      placeholder: "Укажите параметры вашего ПК (Видеокарта, Процессор, SSD/HDD, RAM) и ваши замеры кадров в секунду (FPS) с этим модом и без него..."
     validations:
       required: true
   - type: checkboxes
