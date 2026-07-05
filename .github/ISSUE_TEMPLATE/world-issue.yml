@@ -65,24 +65,51 @@ body:
         - "💻 Ноутбук: Только встроенная графика"
     validations:
       required: true
+  - type: input
+    id: render_distance
+    attributes:
+      label: "7. Дистанция прорисовки и симуляции чанков / Render & Simulation Distance"
+      placeholder: "Например: Render: 12 chunks | Simulation: 8 chunks"
+    validations:
+      required: true
+  - type: dropdown
+    id: world_gen_mods
+    attributes:
+      label: "8. Наличие сторонних модов на генерацию мира / World-gen mods check"
+      options:
+        - "✨ Чистая генерация Ultimate Optimization (По умолчанию)"
+        - "🌍 Использую сторонние моды на биомы (Terralith, Tectonic, Biomes O' Plenty и др.)"
+    validations:
+      required: true
+  - type: dropdown
+    id: lod_shaders_check
+    attributes:
+      label: "9. Использование модов на далекую прорисовку или шейдеров / LOD & Shaders check"
+      options:
+        - "🧊 Только стандартный рендер чанков"
+        - "🎨 Включены тяжелые или средние шейдеры"
+        - "🌀 Использую моды на бесконечную прорисовку (Distant Horizons / LOD моды)"
+        - "🌟 Включены и шейдеры, и моды на бесконечную прорисовку вместе"
+    validations:
+      required: true
   - type: textarea
     id: world_description
     attributes:
-      label: "7. Подробное описание бага генерации / Description"
+      label: "10. Подробное описание бага генерации / Description"
       placeholder: "Чанки не грузятся дальше 4 блоков при полете / Текстуры лавы мигают синим цветом..."
     validations:
       required: true
   - type: textarea
     id: world_specs_fps
     attributes:
-      label: "8. Приблизительный тест FPS в этой зоне и ваши комплектующие / Your Specs & Location FPS"
+      label: "11. Приблизительный тест FPS в этой зоне и ваши комплектующие / Your Specs & Location FPS"
       placeholder: "Укажите процессор/видюху и сколько кадров выдает игра конкретно в этом сломанном месте..."
     validations:
       required: true
   - type: textarea
     id: world_screenshots
     attributes:
-      label: "9. Обязательный скриншот графического бага (F2) / Media Upload"
+      label: "12. Обязательный скриншот графического бага (F2) / Media Upload"
       description: "Пожалуйста, перетащите сюда скриншот поломки чанков или текстур блоков. Без картинок баги рендера не принимаются!"
     validations:
       required: true
