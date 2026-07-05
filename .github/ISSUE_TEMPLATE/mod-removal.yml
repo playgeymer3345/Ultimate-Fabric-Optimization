@@ -10,14 +10,30 @@ body:
   - type: input
     id: remove_mod
     attributes:
-      label: "Какой мод нужно удалить? / Mod to remove"
+      label: "1. Какой мод нужно удалить? / Mod to remove"
       placeholder: "Например: Reese's Sodium Options..."
     validations:
       required: true
   - type: textarea
     id: remove_reason
     attributes:
-      label: "Почему его нужно убрать? / Why should it be removed?"
-      placeholder: "Этот мод конфликтует с новой версией Java и вызывает микрофризы каждые 5 секунд..."
+      label: "2. Почему его нужно убрать? / Why should it be removed?"
+      placeholder: "Этот мод конфликтует с новой версией Java 25 и вызывает микрофризы каждые 5 секунд при рендере..."
     validations:
       required: true
+  - type: dropdown
+    id: removal_drive
+    attributes:
+      label: "3. Проблема с модом зависит от типа вашего диска? / Storage Drive Type"
+      options:
+        - "💾 Да, из-за этого мода игра фризит и тормозит именно на жестких дисках HDD"
+        - "🚀 Лагает/багует на любых накопителях одинаково (и на SSD, и на HDD)"
+    validations:
+      required: true
+  - type: checkboxes
+    id: user_agreement_removal
+    attributes:
+      label: "⚖️ Пользовательское соглашение / User Agreement"
+      options:
+        - label: "Я понимаю, что удаление важных системных модов может сломать общую оптимизацию сборки. Моё предложение подкреплено личными техническими тестами FPS / I agree to the terms"
+          required: true
