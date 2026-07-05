@@ -7,40 +7,82 @@ body:
     attributes:
       value: |
         ### 📌 Технический отчет об ошибке для Ultimate Optimization / Bug report form
-        Пожалуйста, укажите параметры вашего ПК и лаунчера. Это критически важно для решения проблем с FPS и вылетами!
+        Перед созданием темы, пожалуйста, воспользуйтесь поиском по вкладке Issues — возможно, этот баг уже исправлен!
+  - type: checkboxes
+    id: pre_check
+    attributes:
+      label: "Обязательная проверка перед отправкой / Pre-check"
+      options:
+        - label: "Я проверил вкладку Issues и не нашёл дубликата своей ошибки / I checked for duplicates"
+          required: true
+        - label: "Я скачал сборку строго с официальной страницы Modrinth (нет вирусов и изменений) / Official Modrinth download"
+          required: true
+        - label: "Я НЕ добавлял в Ultimate Optimization свои собственные моды / No custom mods added"
+          required: true
+        - label: "Я обновил драйверы видеокарты (NVIDIA/AMD/Intel) и процессора (в т.ч. Xeon) / Drivers updated"
+          required: true
+        - label: "Мой ПК/Ноутбук не перегревается во время игры (нет троттлинга) / No overheating"
+          required: true
+        - label: "Я использую чистый релиз Minecraft, а не снапшоты, Alpha или Beta / Clean Minecraft release"
+          required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "Критичность проблемы / Severity Level"
+      options:
+        - "🔴 Crash / Игра полностью вылетает или не запускается"
+        - "导 FPS Drop / Падает производительность / Микрофризы"
+        - "🔵 Minor / Небольшой визуальный или текстурный баг"
+    validations:
+      required: true
+  - type: dropdown
+    id: lag_type
+    attributes:
+      label: "Характер лагов (Если падает FPS) / Type of performance issue"
+      options:
+        - "📉 Постоянно низкий FPS (Constant low FPS)"
+        - "🛑 Фризы и заикания каждые пару секунд (Stutters / Spikes)"
+        - "⏳ Долгая загрузка мира или чанков (Slow chunk loading)"
+        - "Не относится к FPS (Not a performance issue)"
+    validations:
+      required: true
+  - type: dropdown
+    id: game_mode
+    attributes:
+      label: "Режим игры и тип сессии / Game Mode & Session"
+      options:
+        - "Survival (Выживание) — Одиночная игра"
+        - "Creative (Креатив) — Одиночная игра"
+        - "Сетевая игра (Мультиплеер / Зашёл на сервер)"
+        - "Другой режим (Хардкор, Наблюдатель...)"
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
       label: "Описание проблемы / Description"
-      placeholder: "Игра вылетает при генерации мира / резко падает FPS до 10 кадров..."
+      placeholder: "Подробно опишите, после каких действий игра вылетела или где именно проявился баг..."
     validations:
       required: true
   - type: input
-    id: version
+    id: exact_versions
     attributes:
-      label: "Версия сборки и Minecraft / Modpack & MC Version"
-      placeholder: "v1.0.0 (Minecraft 1.21)"
+      label: "Точные версии ПО / Exact Versions"
+      placeholder: "Модпак: v1.0.0 | Майнкрафт: 1.21 | Java: 25.2.0.3 | Fabric Loader: 0.15.11"
     validations:
       required: true
   - type: input
     id: launcher
     attributes:
       label: "Лаунчер / Minecraft Launcher"
-      placeholder: "Modrinth App, Prism Launcher, TL Launcher..."
-    validations:
-      required: true
-  - type: input
-    id: java_version
-    attributes:
-      label: "Версия Java / Java Version"
-      placeholder: "Java 17, Java 21 (GraalVM, Temurin...)"
+      placeholder: "Modrinth App, Prism Launcher, TL Launcher, Официальный лаунчер..."
     validations:
       required: true
   - type: input
     id: specs
     attributes:
       label: "Процессор и Видеокарта / PC Specs"
-      placeholder: "Intel Core i5-12400F / NVIDIA RTX 3060"
+      placeholder: "Intel Core i5-12400F / NVIDIA RTX 3060 / Intel Xeon E5-2670"
     validations:
       required: true
   - type: input
@@ -51,9 +93,23 @@ body:
     validations:
       required: true
   - type: textarea
+    id: resourcepacks_shaders
+    attributes:
+      label: "Ресурспаки и Шейдеры / Resourcepacks & Shaders"
+      placeholder: "Укажите тяжесть и названия. Пример: Шейдеры Средние (Complementary v5), Ресурпак Тяжёлый (Faithful x64)..."
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Скриншоты или Видео (Опционально) / Media Upload"
+      description: "Перетащите сюда файлы изображений, если это визуальный баг или график Alt+F3 / F3."
+    validations:
+      required: false
+  - type: textarea
     id: logs
     attributes:
       label: "Логи ошибки (latest.log или краш-репорт) / Logs & Crash Report"
-      description: "Без логов мы не сможем найти причину сбоя в оптимизации!"
+      description: "Перетащите файл лога прямо сюда. Без логов мы закроем задачу!"
     validations:
       required: true
