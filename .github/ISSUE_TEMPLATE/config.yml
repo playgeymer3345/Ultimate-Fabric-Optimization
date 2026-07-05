@@ -1,5 +1,8 @@
+# Отключает кнопку "Blank issue" (создание пустой задачи без шаблона) для обычных пользователей
 blank_issues_enabled: false
+
+# Добавляет полезную ссылку в самый низ меню выбора шаблонов
 contact_links:
-  - name: "🪐 Скачать сборку на Modrinth / Download on Modrinth"
-    url: "https://modrinth.com"
+  - name: "Скачать сборку на Modrinth / Download on Modrinth"
+    url: "https://modrinth.com" # ЗАМЕНИТЕ на реальную ссылку на вашу сборку модов
     about: "Вернуться на официальную страницу проекта на Modrinth для скачивания или проверки обновлений сборки."
