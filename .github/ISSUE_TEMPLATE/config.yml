@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: "Questions and support"
+    url: "https://modrinth.com" # ЗАМЕНИТЕ на реальную ссылку вашей сборки
+    about: "General questions and support will be provided on the modpack's Modrinth page"
