@@ -1,0 +1,11 @@
+name: "Meta issue"
+description: "Use this issue type only if the creator told you to do that"
+title: "[Meta]: "
+labels: ["meta"]
+body:
+  - type: textarea
+    id: meta_info
+    attributes:
+      label: "Details"
+    validations:
+      required: true
