@@ -1,0 +1,84 @@
+name: "🔄 Замена мода / Mod replacement"
+description: "Предложите заменить один мод в Ultimate Optimization на более оптимизированный аналог"
+title: "[Mod Replacement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🔄 Запрос на замену мода в Ultimate Optimization / Mod replacement form
+        Пожалуйста, аргументируйте замену. Мы меняем моды только ради повышения производительности, стабильности FPS или исправления критических багов!
+  - type: input
+    id: old_mod
+    attributes:
+      label: "1. Какой мод вы хотите УБРАТЬ из сборки? / Mod to remove"
+      placeholder: "Например: Reese's Sodium Options..."
+    validations:
+      required: true
+  - type: input
+    id: new_mod
+    attributes:
+      label: "2. Каким модом вы хотите его ЗАМЕНИТЬ? / Replacement mod"
+      placeholder: "Например: Sodium Extra..."
+    validations:
+      required: true
+  - type: input
+    id: mod_link
+    attributes:
+      label: "3. Ссылка на новый мод (Modrinth / GitHub) / New mod link"
+      placeholder: "https://modrinth.com..."
+    validations:
+      required: true
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: "4. Почему и зачем нужна эта замена? Что это даст проекту? / Why?"
+      placeholder: "Новый аналог обновляется под Java 25, не конфликтует с Fabric и исправляет ошибку рендера чанков..."
+    validations:
+      required: true
+  - type: dropdown
+    id: removal_os
+    attributes:
+      label: "5. Операционная система / Operating System"
+      options:
+        - "🪟 Windows 10 / 11"
+        - "🐧 Linux"
+        - "🍏 MacOS"
+        - "📱 PojavLauncher"
+        - "❓ Другая ОС"
+    validations:
+      required: true
+  - type: dropdown
+    id: drive_type
+    attributes:
+      label: "6. Тип накопителя (Где проводились тесты) / Storage Drive Type"
+      options:
+        - "⚡ SSD / NVMe (Быстрый диск)"
+        - "💾 HDD (Жесткий диск)"
+    validations:
+      required: true
+  - type: dropdown
+    id: gpu_type
+    attributes:
+      label: "7. Видеокарта на ноутбуке или ПК / GPU Type"
+      options:
+        - "🖥️ ПК: Дискретная видеокарта"
+        - "🔌 ПК: Встроенная графика"
+        - "💻 Ноутбук: Две видеокарты (Переключаемая графика)"
+        - "💻 Ноутбук: Только встроенная графика"
+    validations:
+      required: true
+  - type: textarea
+    id: test_results_fps
+    attributes:
+      label: "8. Ваши комплектующие, тесты и замеры FPS (До / После замены) / Your Specs & Test FPS"
+      placeholder: "Процессор: Xeon E5-2670 / Видеокарта: GTX 1060. Со старым модом FPS был 60 с просадками, с новым модом стал стабильные 95 FPS..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: user_agreement_replacement
+    attributes:
+      label: "⚖️ Пользовательское соглашение / User Agreement"
+      options:
+        - label: "Я гарантирую, что лично протестировал предлагаемую замену модов на официальной чистой сборке Ultimate Optimization, и новый мод действительно работает стабильнее или выдает больше FPS / I agree to the terms"
+          required: true
