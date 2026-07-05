@@ -10,7 +10,14 @@ body:
   - type: textarea
     id: meta_info
     attributes:
-      label: "Технические подробности задачи / Details"
-      placeholder: "Перевод сборки на новую версию Minecraft 1.21.x и глобальное тестирование стабильности FPS..."
+      label: "Технические подробности крупной девелоперской задачи / Details"
+      placeholder: "Глобальный перевод сборки на новую версию Minecraft 1.21.x и масштабные тесты стабильности FPS на разных видеокартах..."
     validations:
       required: true
+  - type: checkboxes
+    id: user_agreement_meta
+    attributes:
+      label: "⚖️ Ограничение доступа / Developer Access Only"
+      options:
+        - label: "Я являюсь разработчиком/модератором сборки Ultimate Optimization или создатель проекта лично попросил меня создать эту техническую задачу / Developer access confirmed"
+          required: true
