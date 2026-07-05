@@ -1,12 +1,24 @@
-name: "Setting change"
-description: "Suggest an option/config/keybind/etc change in an existing mod or tool."
+name: "⚙️ Изменение настроек / Setting change"
+description: "Предложите изменить конфиг, горячие клавиши или дефолтные настройки модов для лучшего FPS"
 title: "[Setting Change]: "
 labels: ["config"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ⚙️ Изменение конфигурации Ultimate Optimization / Config changes
   - type: textarea
     id: change_info
     attributes:
-      label: "What configuration or setting should be changed?"
-      placeholder: "Change smooth lighting settings by default because..."
+      label: "Какие настройки нужно изменить по умолчанию и почему? / Details"
+      description: "Укажите название мода и строчку в конфиге, если возможно."
+      placeholder: "Отключите мягкое освещение в Sodium по умолчанию, так как это дает +15 FPS на старых видеокартах..."
+    validations:
+      required: true
+  - type: input
+    id: pc_impact
+    attributes:
+      label: "На каком железе это проверялось? / PC Specs used for testing"
+      placeholder: "e.g. Ноутбук с процессором AMD Ryzen 3 и встроенной графикой Vega..."
     validations:
       required: true
