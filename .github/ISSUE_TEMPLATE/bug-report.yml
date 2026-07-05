@@ -1,0 +1,31 @@
+name: "Bug report"
+description: "Report an issue with the modpack in its unmodified state."
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 📌 Bug report for Ultimate Optimization
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "What happened?"
+      placeholder: "The game crashes when opening..."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "Modpack Version"
+      placeholder: "e.g. v1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs or Crash Report"
+      description: "Please provide latest.log or crash report"
+    validations:
+      required: true
