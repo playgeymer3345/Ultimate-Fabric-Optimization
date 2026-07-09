@@ -1,25 +1,36 @@
-TERMS OF USE AND CONDITIONAL FORKING LICENSE
+ULTIMATE OPTIMIZATION CUSTOM END-USER LICENSE AGREEMENT (EULA)
 Project: Ultimate Optimization
 Author: playgeymer22852
 
-By downloading, using, or interacting with this modpack, you agree to the following terms:
+By downloading, installing, using, or interacting with this modpack ("Modpack") or its GitHub repository, you legally agree to the following terms:
 
-1. GENERAL RESTRICTIONS (STRICTLY PROHIBITED ANYWHERE)
-1.1. COMMERCIAL USE: Selling this modpack, charging for access, or using it for commercial purposes (except for streaming and public servers with store perks) is strictly prohibited.
+1. GENERAL PROHIBITIONS AND PROTECTION AGAINST MALICIOUS USE
+1.1. COMMERCIAL USE: Selling this Modpack, charging for downloads, or using it for commercial purposes (except for streaming and public servers) is strictly prohibited.
 1.2. DESCRIPTION THEFT: Copying, plagiarizing, or stealing the text, description, graphics, artwork, or logos of "Ultimate Optimization" for other projects is strictly prohibited.
-1.3. CHEATS & MALWARE: Modifying this modpack to include cheats, hacks, exploits, or malicious software is strictly prohibited.
+1.3. CHEATS & MALWARE: Modifying this Modpack to include cheats, hacks, exploits, x-ray, or any malicious software is strictly prohibited.
+1.4. ASSET PROTECTION: Copying or using the Author's custom icons, main menu textures, custom translations, or configurations for other public projects is strictly prohibited.
+1.5. REPOSITORY CODE: Copying or using the Author's GitHub Issue templates, Wiki pages, or documentation for other projects is strictly prohibited.
 
-2. CONDITIONAL FORKING RULES (WHEN YOU CAN AND CANNOT FORK)
-You are normally NOT allowed to create public forks or clones of this modpack. However, exceptions are granted strictly under the following conditions:
-
-2.1. UNSUPPORTED GAME VERSIONS: If the Author (playgeymer22852) does not support a specific Minecraft version and has no active version for it on Modrinth/GitHub, you ARE permitted to create a fork strictly for that unsupported version.
-2.2. PROJECT ABANDONMENT: If the Author completely abandons the project or archives this GitHub repository, you ARE permitted to continue and maintain a fork of the project.
-2.3. REVOCATION OF FORK RIGHTS: If the Author (playgeymer22852) later decides to officially release "Ultimate Optimization" for that previously unsupported version, or un-archives the project to resume active development, your right to continue updating your fork is immediately REVOKED. You must cease further public updates to your version upon the Author's request.
+2. CONDITIONAL FORKING RULES (WHEN FORKS ARE ALLOWED)
+Public forks or clones of Ultimate Optimization are normally STRICTLY PROHIBITED. Exceptions are granted only under these conditions:
+2.1. UNSUPPORTED VERSIONS: If the Author does not support a specific Minecraft version (e.g., version 26.1.2) and has no active version for it, you may create a fork strictly for that version.
+2.2. PROJECT ABANDONMENT: If the Author completely abandons the project or archives this GitHub repository, you may maintain a fork.
+2.3. REVOCATION: If the Author later releases an official version for that unsupported version, or resumes active development, your right to update the fork is immediately REVOKED upon the Author's request.
+2.4. BAN CONTEXT: Forks are strictly prohibited if the Author's Modrinth account is banned or suspended, until the situation is officially resolved by playgeymer22852.
+2.5. PARODY & INSULTS: Creating forks with the intent to mock, parody, insult, or defame the Author or the original Modpack is strictly prohibited.
 
 3. REQUIREMENTS FOR ALLOWED FORKS
-If your fork meets the conditions in Section 2, you MUST comply with the following:
-3.1. ATTRIBUTION: You must prominently credit playgeymer22852 as the original author and provide a direct link to the original Ultimate Optimization pages on GitHub/Modrinth.
-3.2. NAMING: You cannot name your project "Ultimate Optimization". It must clearly state it is an unofficial fork (e.g., "Community Fork for Unsupported Version").
-3.3. NO CHEATS/COMMERCE: Your fork must remain completely free, cheat-free, and follow all rules in Section 1.
+Any approved fork must strictly follow these rules:
+3.1. ATTRIBUTION: You must prominently credit playgeymer22852 as the original author and provide a direct link to the original GitHub/Modrinth pages.
+3.2. NAMING: You cannot name your project "Ultimate Optimization". It must clearly state it is an unofficial fork.
+3.3. NO SUPPORT EXPECTATION: The Author is not responsible for bugs in your fork. Users of forks must not report bugs to the original Author's bug tracker.
+
+4. BUG TRACKER RULES & TESTING
+4.1. CLEAN ISSUE TRACKER: Users are strictly prohibited from spamming the GitHub Issue tracker with fake or meaningless bug reports, especially if caused by user-installed cheats, hacks, or third-party modifications.
+4.2. BETA-TEST RESTRICTIONS: Pre-release versions (Betas/Alphas) shared for testing are strictly confidential. Sharing, re-uploading, or forking beta versions before the official release is strictly prohibited.
+
+5. ENFORCEMENT AND TERMINATION
+5.1. RIGHT TO TERMINATE: The Author reserves the right to revoke license rights and demand immediate removal of any fork if the fork's creator exhibits toxic behavior, insults the Author, or violates any terms.
+5.2. REMOVAL: Any unauthorized fork or violating project must be completely removed from the internet immediately upon the Author’s first request (including DMCA takedown notices).
 
 Copyright (c) 2026 playgeymer22852. All rights reserved.
