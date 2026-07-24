@@ -5,9 +5,9 @@
 ---
 
 ### 🔗 Ссылки
-* 🟢 [СКАЧАТЬ СБОРКУ](https://modrinth.com) (Modrinth)
+* 🟢 [СКАЧАТЬ СБОРКУ](https://modrinth.com/modpack/ultimate-optimizations) (Modrinth)
 * ⚙️ [СКАЧАТЬ FABRIC](https://fabricmc.net) (Официальный установщик)
-* ☕ [СКАЧАТЬ JAVA (ADOPTIUM)](https://adoptium.net) — **Строго рекомендуется Java 25+ (JRE)**.
+* ☕ [СКАЧАТЬ JAVA (GRAALVM)]( https://github.com/graalvm/graalvm-ce-builds/releases) — **Строго рекомендуется Java 25 и выше.
 
 ---
 
