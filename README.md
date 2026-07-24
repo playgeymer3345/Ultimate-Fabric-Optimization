@@ -6,7 +6,7 @@
 
 ### 🔗 Ссылки
 * 🟢 [СКАЧАТЬ СБОРКУ](https://modrinth.com/modpack/ultimate-optimizations) (Modrinth)
-* ☕ [СКАЧАТЬ JAVA (GRAALVM)]( https://github.com/graalvm/graalvm-ce-builds/releases) — **Строго рекомендуется Java 25 и выше.
+* ☕ [СКАЧАТЬ JAVA (GRAALVM)]( https://github.com/graalvm/graalvm-ce-builds/releases) — Строго рекомендуется Java 25 и выше.
 
 ---
 
