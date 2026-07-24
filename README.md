@@ -1,19 +1,18 @@
-# ⚡ Ultimate-fabric-optimization
+# ⚡ Ultimate-optimizations
 
-**Ultimate-fabric-optimization** — это высокотехнологичная сборка модов для Minecraft, созданная для максимального FPS, устранения фризов и обеспечения идеальной плавности геймплея.
+**Ultimate-optimizations** — это высокотехнологичная сборка модов для Minecraft, созданная для максимального FPS, устранения фризов и обеспечения идеальной плавности геймплея.
 
 ---
 
 ### 🔗 Ссылки
 * 🟢 [СКАЧАТЬ СБОРКУ](https://modrinth.com/modpack/ultimate-optimizations) (Modrinth)
-* ⚙️ [СКАЧАТЬ FABRIC](https://fabricmc.net) (Официальный установщик)
 * ☕ [СКАЧАТЬ JAVA (GRAALVM)]( https://github.com/graalvm/graalvm-ce-builds/releases) — **Строго рекомендуется Java 25 и выше.
 
 ---
 
 ## 🐛 Сообщить о баге (Инструкция)
 
-1. Перейдите на вкладку **Issues** вверху страницы.
+1. Перейдите на вкладку по сылке **[issues](https://github.com/playgeymer22852/Ultimate-optimizations/issues)** или через кнопку issues вверху страницы.
 2. Войдите в свой аккаунт **GitHub** (или зарегистрируйтесь).
 3. Нажмите зелёную кнопку **New issue** и выберите подходящий шаблон.
 
